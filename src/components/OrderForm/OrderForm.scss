@@ -6,30 +6,32 @@
     margin-bottom: 1.5rem;
 }
 
-.title {
-    font-size: 1.25rem;
+.title h2 {
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 .menu-item {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .menu-item-header {
     display: flex;
+    font-size: 1.6rem;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
 }
 
 .quantity-input {
-    width: 5rem;
-    padding: 0.5rem;
+    width: 6rem;
+    padding: 0.7rem;
     border: 1px solid #e2e8f0;
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #2d3748;
+    margin-top: 15px;
 }
 
 .quantity-input:focus {
@@ -38,14 +40,15 @@
 }
 
 .ingredient-list {
-    font-size: 0.875rem;
+    font-size: 1.3rem;
     color: #4a5568;
 }
 
 .submit-btn {
+    align-items: end;
     background-color: #48bb78;
     color: white;
-    padding: 0.75rem 1.5rem;
+    padding: 1rem 1.8rem;
     border-radius: 4px;
     font-size: 1rem;
     font-weight: bold;

@@ -23,7 +23,7 @@ const OwnerDashboard = () => {
         <div className="owner-dashboard-container">
             <div className="owner-dashboard-content">
                 <div className="owner-dashboard-header">
-                    <h2 className="owner-dashboard-title">Shop Owner Dashboard</h2>
+                    <h2 className="owner-dashboard-title">Shop Owner Dashboard !</h2>
                     <button
                         onClick={handleLogout}
                         className="owner-dashboard-logout-btn"

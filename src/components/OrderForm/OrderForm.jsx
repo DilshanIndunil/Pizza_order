@@ -35,7 +35,7 @@ const OrderForm = () => {
 
     return (
         <div className="order-form-container">
-            <h3 className="title">Place an Order</h3>
+            <h2 className="title">Place Your Order Here</h2>
             <form onSubmit={handleSubmit}>
                 {menu.map((item) => (
                     <div key={item.id} className="menu-item">

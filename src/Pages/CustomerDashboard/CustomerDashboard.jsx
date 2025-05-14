@@ -22,7 +22,7 @@ const CustomerDashboard = () => {
         <div className="customer-dashboard-container">
             <div className="dashboard-content">
                 <div className="header">
-                    <h2 className="welcome-message">Welcome, {user.username}</h2>
+                    <h1 className="welcome-message">Welcome, {user.username}! Ready to order? 🍕</h1>
                     <button
                         onClick={handleLogout}
                         className="logout-btn"
