@@ -60,8 +60,6 @@ Ensure src/index.css is empty (Tailwind handles styling).
 
 5. Run the App
 ```bash
-Copy
-Edit
 npm start
 ```
 
@@ -93,47 +91,19 @@ src/
 
 Customer
 Login → Enter name, choose "Customer".
-
 Place Order → Select pizzas and quantity.
-
 Get Order ID → Shown after placing order.
-
 Check Status → Enter order ID to see status.
-
 Logout → Click Logout button.
 
 Shop Owner
 Login → Enter name, choose "Shop Owner".
-
 Manage Orders → View and update statuses.
-
 Manage Inventory → Add, update, delete ingredients.
-
 Manage Menu → Add/remove pizzas.
-
 Logout → Click Logout button.
 
 ⚠️ Limitations
 Data resets on refresh (no backend).
-
 No real authentication.
-
 Basic form validation.
-
-🌱 Future Enhancements
-Add backend (Node.js, Firebase, etc.).
-
-Implement real authentication.
-
-Improve form validation and UX.
-
-Add timestamps and loading indicators.
-
-🛠️ Troubleshooting
-App won't start? Run npm install. Check Node.js.
-
-Blank screen? Verify Tailwind CDN and index.js.
-
-Broken routes? Ensure react-router-dom is installed.
-
-No styles? Check Tailwind <script> in index.html. 
