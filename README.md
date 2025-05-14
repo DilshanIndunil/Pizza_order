@@ -130,4 +130,4 @@ Blank screen? Verify Tailwind CDN and index.js.
 
 Broken routes? Ensure react-router-dom is installed.
 
-No styles? Check Tailwind <script> in index.html.
+No styles? Check Tailwind <script> in index.html. 
