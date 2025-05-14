@@ -1,72 +1,76 @@
-🍕 Pizza Shop Application – Overview
-Pizza Shop is a beginner-friendly React app that simulates a pizza ordering system with two roles: Customer and Shop Owner. Customers can place orders and track them. Owners manage inventory, menu, and order statuses. Data is managed in-memory using React Context API. No backend is used.
+# 🍕 Pizza Shop Application
 
-✨ Features
-🔸 Customer
-Login as Customer.
+**Pizza Shop** is a beginner-friendly React app that simulates a pizza ordering system with two roles: **Customer** and **Shop Owner**. Customers can place and track orders. Owners manage inventory, the menu, and order statuses. All data is stored in-memory using React Context API — no backend is required.
 
-Place Orders for available pizzas with quantities.
+---
 
-Check Order Status using a unique order ID.
+## ✨ Features
 
-Ingredient Check – Orders fail if ingredients are insufficient.
+### 🔸 Customer
+- Login as Customer
+- Place orders with selected pizzas and quantities
+- Track order status using a unique order ID
+- Automatic ingredient validation (orders fail if ingredients are insufficient)
 
-🔸 Shop Owner
-Login as Shop Owner.
+### 🔸 Shop Owner
+- Login as Shop Owner
+- View and update all order statuses
+- Add, update, and remove ingredients from inventory
+- Manage menu items and their required ingredients
 
-Manage Orders – Update order statuses.
+---
 
-Manage Inventory – Add, edit, remove ingredients.
+## ⚙️ Tech Stack
 
-Manage Menu – Add or remove pizza types and prices.
+- **React** – UI development
+- **React Router** – Page navigation
+- **React Context API** – Global state management
+- **Tailwind CSS (via CDN)** – Styling
+- **UUID** – Unique order IDs
 
-⚙️ Tech Stack
-React (UI)
+---
 
-React Router (Navigation)
+## 📦 Setup Instructions
 
-React Context API (State)
+### 1. Clone or Create the Project
 
-Tailwind CSS (CDN-based Styling)
-
-UUID (Unique Order IDs)
-
-📦 Setup Instructions
-1. Clone or Create Project
-bash
-Copy
-Edit
+```bash
 git clone <repository-url>
 cd pizza-shop
 # OR
 npx create-react-app pizza-shop
 cd pizza-shop
+```
+
 2. Install Dependencies
-bash
-Copy
-Edit
+
+```bash
 npm install react-router-dom uuid
+```
+
 3. Tailwind CSS Setup
 Add this in public/index.html inside <head>:
 
-html
-Copy
-Edit
+```bash
 <script src="https://cdn.tailwindcss.com"></script>
+```
+
 4. Clear Default CSS
 Ensure src/index.css is empty (Tailwind handles styling).
 
 5. Run the App
-bash
+```bash
 Copy
 Edit
 npm start
+```
+
 Open http://localhost:3000.
 
 📁 Folder Structure
-pgsql
-Copy
-Edit
+
+
+```bash
 src/
 ├── components/
 │   ├── OrderForm.js
@@ -83,8 +87,10 @@ src/
 ├── App.js
 ├── index.js
 └── index.css
+```
 
 🧭 Usage Guide
+
 Customer
 Login → Enter name, choose "Customer".
 
