@@ -35,7 +35,7 @@ const Login = () => {
                         />
                     </div>
                     <div className="input-group">
-                        <label className="input-label">Role</label>
+                        <label className="input-label">Role &emsp;&emsp;</label>
                         <select
                             value={role}
                             onChange={(e) => setRole(e.target.value)}

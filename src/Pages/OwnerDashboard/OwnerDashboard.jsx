@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import { useNavigate, Navigate } from 'react-router-dom';
 import { AppContext } from '../../context/AppContext';
-import InventoryManagement from '../InventoryManagement/InventoryManagement';
-import MenuManagement from '../MenuManagement/MenuManagement';
-import OrderManagement from '../OrderManagement/OrderManagement';
-import './OwnerDashboard.scss'; // Import the SCSS file for styling
+import InventoryManagement from '../../components/InventoryManagement/InventoryManagement';
+import MenuManagement from '../../components/MenuManagement/MenuManagement';
+import OrderManagement from '../../components/OrderManagement/OrderManagement';
+import './OwnerDashboard.scss';
 
 const OwnerDashboard = () => {
     const { user, logout } = useContext(AppContext);

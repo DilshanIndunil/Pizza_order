@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import { useNavigate, Navigate } from 'react-router-dom';
 import { AppContext } from '../../context/AppContext';
-import OrderForm from '../OrderForm/OrderForm';
-import OrderStatus from '../OrderStatus/OrderStatus';
+import OrderForm from '../../components/OrderForm/OrderForm';
+import OrderStatus from '../../components/OrderStatus/OrderStatus';
 import './CustomerDashboard.scss'; // Import the new SCSS file for styling
 
 const CustomerDashboard = () => {
